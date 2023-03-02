@@ -6,6 +6,6 @@ const sr = ScrollReveal({
     delay: 200,
 });
 
-sr.reveal('.home__data, .about__img',{}); 
-sr.reveal('.home__img',{delay: 400}); 
-sr.reveal('.home__social-icon',{ interval: 200}); 
+sr.reveal('.home__data, .home-social-icon' ,{}); 
+sr.reveal('.home-social-icon', {delay: 400}); 
+sr.reveal( '.home-social-icon',{ interval: 200}); 
